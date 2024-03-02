@@ -1,0 +1,206 @@
+@media screen and (max-width: 1200px) and (min-width: 300px) {
+  .header {
+    width: 20%;
+    grid-template-columns: repeat(2, auto);
+  }
+}
+.header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+.header__about {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  background-color: #252B42;
+  justify-content: space-evenly;
+}
+@media (max-width: 568px) {
+  .header__about {
+    display: none;
+  }
+}
+.header__about-nomre {
+  display: flex;
+  gap: 2%;
+}
+.header__about-nomre-div1 {
+  display: flex;
+  gap: 2px;
+  color: white;
+}
+.header__about-nomre-div2 {
+  display: flex;
+  gap: 2px;
+  color: white;
+}
+.header__about-name {
+  color: white;
+}
+.header__about-icons {
+  display: flex;
+  color: white;
+}
+.header__nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  background-color: white;
+}
+.header__nav-name {
+  cursor: pointer;
+}
+.header__nav-links {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10%;
+  justify-content: space-around;
+}
+.header__nav-links-ilk-ul {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  column-gap: 20px;
+  color: #737373;
+  list-style: none;
+  padding: 19px;
+}
+.header__nav-links-son {
+  cursor: pointer;
+  display: flex;
+}
+@media (max-width: 568px) {
+  .header__nav-links-son {
+    display: none;
+  }
+}
+.header__nav-links-son-ilk {
+  padding: 18px;
+}
+.header__nav-links-son-son {
+  display: flex;
+}
+
+.section__back {
+  width: 100%;
+  margin-top: 144px;
+  background-image: url(/foto/boyuk\ backround.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section__back-div {
+  font-size: large;
+  padding: 250px;
+  color: white;
+}
+@media (max-width: 568px) {
+  .section__back-div {
+    padding: 20px;
+  }
+}
+.section__back-div-button {
+  color: white;
+  background-color: #2DC071;
+  border-radius: 2px;
+  border-width: 0;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.section__cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.section__cards-name {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.section__cards-name-h2 {
+  width: 100%;
+  color: #737373;
+}
+.section__cards-name-h1 {
+  width: 100%;
+}
+.section__cards-ust {
+  padding: 10%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 568px) {
+  .section__cards-ust {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+  }
+}
+.section__cards-ust-card1-text {
+  width: 40%;
+}
+.section__cards-ust-card1-text-img {
+  display: flex;
+  flex-direction: column;
+}
+.section__cards-ust-card2-text {
+  width: 40%;
+}
+.section__cards-ust-card2-text-img {
+  display: flex;
+  flex-direction: column;
+}
+.section__cards-ust-card3-text {
+  width: 40%;
+}
+.section__cards-ust-card3-text-img {
+  display: flex;
+  flex-direction: column;
+}
+.section__cards-ust-card4-text {
+  width: 40%;
+}
+.section__cards-ust-card4-text-img {
+  display: flex;
+  flex-direction: column;
+}
+.section__cards-alt {
+  padding: 10%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.section__cards-alt-card1-text {
+  width: 40%;
+}
+.section__cards-alt-card1-text-img {
+  display: flex;
+  flex-direction: column;
+}
+.section__cards-alt-card2-text {
+  width: 40%;
+}
+.section__cards-alt-card2-text-img {
+  display: flex;
+  flex-direction: column;
+}
+.section__cards-alt-card3-text {
+  width: 40%;
+}
+.section__cards-alt-card3-text-img {
+  display: flex;
+  flex-direction: column;
+}
+.section__cards-alt-card4-text {
+  width: 40%;
+}
+.section__cards-alt-card4-text-img {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=index.css.map */

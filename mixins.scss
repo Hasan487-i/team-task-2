@@ -1,0 +1,22 @@
+@import "variables";
+
+@mixin large-screen(){
+    @media screen and (max-width: $large-screen){
+        @content;
+    }
+}
+@mixin  destkop(){
+    @media (max-width: $destkop){
+        @content;
+    }
+}
+@mixin   tablet(){
+    @media (max-width: $tablet){
+        @content;
+    }
+}
+@mixin    mobile(){
+    @media (max-width: $mobile){
+        @content;
+    }
+}
